@@ -1,5 +1,5 @@
 /* global require, module */
-var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+var EmberApp = require("ember-cli/lib/broccoli/ember-app");
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
@@ -11,7 +11,7 @@ module.exports = function(defaults) {
   //
   // If you need to use different assets in different
   // environments, specify an object as the first parameter. That
-  // object's keys should be the environment name and the values
+  // object"s keys should be the environment name and the values
   // should be the asset to use in that environment.
   //
   // If the library that you are including contains AMD or ES6

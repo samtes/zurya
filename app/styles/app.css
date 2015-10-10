@@ -1,0 +1,77 @@
+html, body, * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica";
+  margin: 0 70px;
+  font-size: 1em;
+}
+
+a, .primary-link {
+  text-decoration: none;
+  color: #08c;
+  cursor: pointer;
+}
+
+.primary-link:hover {
+  opacity: .7;
+}
+
+.selector {
+  display: flex;
+  justify-content: center;
+}
+
+.select-style {
+  display: flex;
+  justify-content: flex-end;
+}
+.card {
+  border: 2px solid #EBEBEB;
+  text-align: center;
+  border-radius: 9px;
+  width: 270px;
+  height: 500px;
+  margin: 5px 30px;
+}
+.selector-board {
+  background-color: #EBEBEB;
+  border-radius: 9px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+  height: 500px;
+  margin: 5px 30px;
+}
+
+.card:hover {
+  border: 4px solid #EBEBEB;
+}
+.zurya {
+  background-image: url("imgs/pic1.jpg");
+  background-size: cover;
+}
+
+.tilfi {
+  background-image: url("imgs/pic2.jpg");
+  background-size: cover;
+}
+
+.style {
+  background-image: url("imgs/pic3.jpg");
+  background-size: cover;
+}
+
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 9px;
+  width: 45%;
+  height: 150px;
+  margin: 0 15px;
+}
